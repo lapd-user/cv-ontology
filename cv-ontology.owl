@@ -522,12 +522,6 @@ Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Professi
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Experience>
     
     
-Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Project>
-
-    SubClassOf: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>
-    
-    
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Skill>
 
     SubClassOf: 
