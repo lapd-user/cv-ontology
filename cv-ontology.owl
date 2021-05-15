@@ -53,7 +53,7 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Experience>
     
     Range: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>
+        <http://dbpedia.org/resource/Organization>
     
     
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasCV>
@@ -62,7 +62,7 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
         owl:topObjectProperty
     
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CV>
@@ -71,7 +71,7 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasEducation>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Education>
@@ -92,7 +92,7 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasExperience>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Experience>
@@ -101,10 +101,10 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasGroupMembership>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Group>
+        <http://dbpedia.org/resource/Group>
     
     
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasLocation>
@@ -113,9 +113,9 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
         owl:topObjectProperty
     
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Event>,
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>,
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Event>,
+        <http://dbpedia.org/resource/Organization>,
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         <http://dbpedia.org/resource/Location>
@@ -124,7 +124,7 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasName>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         <http://dbpedia.org/resource/Name>
@@ -133,7 +133,7 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasSkill>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Skill>
@@ -157,17 +157,17 @@ ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>
     
     Range: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     
 ObjectProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#ParticipatedIn>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Event>,
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Project>
+        <http://dbpedia.org/resource/Event>,
+        <http://dbpedia.org/resource/Project>
     
     
 ObjectProperty: owl:topObjectProperty
@@ -237,7 +237,7 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#c
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#dateOfBirth>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         xsd:dateTime
@@ -273,7 +273,7 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#d
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#email>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         xsd:string
@@ -297,13 +297,13 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#e
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#githubUrl>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#linkedinUrl>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         xsd:string
@@ -315,8 +315,8 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#l
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#name>
 
     Domain: 
+        <http://dbpedia.org/resource/Organization>,
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Course>,
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>,
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Subject>
     
     Range: 
@@ -329,7 +329,7 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#n
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#phoneNumber>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         xsd:nonNegativeInteger
@@ -353,7 +353,7 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#p
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#profileImage>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         xsd:string
@@ -401,8 +401,8 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#t
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#url>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>,
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>
+        <http://dbpedia.org/resource/Organization>,
+        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>
     
     SubPropertyOf: 
         owl:topDataProperty
@@ -411,7 +411,7 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#u
 DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#websiteUrl>
 
     Domain: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Range: 
         xsd:string
@@ -423,11 +423,47 @@ DataProperty: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#w
 DataProperty: owl:topDataProperty
 
     
+Class: <http://dbpedia.org/resource/Company>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#WorkOrganization>
+    
+    
+Class: <http://dbpedia.org/resource/Event>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>
+    
+    
+Class: <http://dbpedia.org/resource/Group>
+
+    SubClassOf: 
+        <http://dbpedia.org/resource/Organization>
+    
+    
 Class: <http://dbpedia.org/resource/Location>
 
     
 Class: <http://dbpedia.org/resource/Name>
 
+    
+Class: <http://dbpedia.org/resource/Organization>
+
+    
+Class: <http://dbpedia.org/resource/Person>
+
+    
+Class: <http://dbpedia.org/resource/Project>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>
+    
+    
+Class: <http://dbpedia.org/resource/University>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#WorkOrganization>
+    
     
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CV>
 
@@ -439,18 +475,6 @@ Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Certific
 
     SubClassOf: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Education>
-    
-    
-Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#College>
-
-    SubClassOf: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#WorkOrganization>
-    
-    
-Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Company>
-
-    SubClassOf: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#WorkOrganization>
     
     
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Course>
@@ -480,29 +504,17 @@ Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Experien
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#CVEntry>
     
     
-Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Group>
-
-    SubClassOf: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>
-    
-    
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Language>
 
     SubClassOf: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Skill>
     
     
-Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>
-
-    
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#OtherExperience>
 
     SubClassOf: 
         <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Experience>
     
-    
-Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
-
     
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#ProfessionalExperience>
 
@@ -540,7 +552,7 @@ Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Technica
 Class: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#WorkOrganization>
 
     SubClassOf: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Organization>
+        <http://dbpedia.org/resource/Organization>
     
     
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Agents_and_Distributed_Artificial_Intelligence>
@@ -556,7 +568,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Age
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Biztapp>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Company>
+        <http://dbpedia.org/resource/Company>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#name>  "Biztapp"^^xsd:string
@@ -565,7 +577,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Biz
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Computer_Graphics_Group>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Group>
+        <http://dbpedia.org/resource/Group>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#name>  "Computer and Graphics Student Division"^^xsd:string
@@ -584,7 +596,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Dat
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#FEUP>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#College>
+        <http://dbpedia.org/resource/University>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#name>  "FEUP"^^xsd:string
@@ -607,7 +619,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#FEU
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#IDSocial>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#WorkOrganization>
+        <http://dbpedia.org/resource/Company>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#name>  "IDSocial"
@@ -616,7 +628,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#IDS
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#INESCTEC>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Company>
+        <http://dbpedia.org/resource/Company>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#name>  "Inesc Tec"^^xsd:string
@@ -625,7 +637,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#INE
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Martim>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasCV>  <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Martim_CV>,
@@ -776,7 +788,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Mar
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Martim_Personal_Project>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Project>
+        <http://dbpedia.org/resource/Project>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#title>  "Prison Delivery System"^^xsd:string
@@ -812,7 +824,7 @@ Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Mar
 Individual: <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Miguel_Ramalho>
 
     Types: 
-        <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Person>
+        <http://dbpedia.org/resource/Person>
     
     Facts:  
      <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#HasName>  <http://www.semanticweb.org/martim/ontologies/2021/4/cv-ontology#Miguel_Ramalho_Name>,
